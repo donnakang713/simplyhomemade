@@ -1,0 +1,13 @@
+body {
+  font-family: 'Montserrat';
+}
+
+header {
+  height: 600px;
+  background-image: url("/Users/donna/bloc/simplyhomemade/images/Header_Image.png");
+  color: white;
+}
+
+h2.first {
+  color: purple;
+}
