@@ -3,11 +3,74 @@ body {
 }
 
 header {
-  height: 600px;
+  height: 700px;
   background-image: url("/Users/donna/bloc/simplyhomemade/images/Header_Image.png");
   color: white;
 }
 
-h2.first {
-  color: purple;
+h1 {
+  padding-left: 5%;
+  padding-top: 10%;
+  font-size: 6em;
+}
+
+p {
+  font-size: 1.3em;
+  padding-left: 5%;
+}
+
+.iphone img {
+  float: right;
+  padding-right: 5%;
+}
+
+
+
+.first h2 {
+  padding-top: 3%;
+  font-size: 2em;
+}
+
+.first p{
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+.first h2, .first p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.second h2 {
+  padding-left: 5%;
+  padding-top: 3%;
+  font-size: 2em;
+}
+.second .column1of3 p {
+  width: 43%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+.second span {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #E6622B;
+}
+
+.second .column2of3 img {
+  width: 20%;
+  float: left;
+}
+
+.second .column3of3 img {
+  width: 20%;
+  float: left;
+  padding-right: 5%;
+  padding-left: 2%;
 }
