@@ -5,7 +5,25 @@ body {
 header {
   height: 700px;
   background-image: url("/Users/donna/bloc/simplyhomemade/images/Header_Image.png");
+  background-repeat: no-repeat;
   color: white;
+}
+
+nav{
+  padding: 3%;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px;
 }
 
 h1 {
@@ -26,28 +44,28 @@ p {
 
 
 
-.first h2 {
+#first h2 {
   padding-top: 3%;
   font-size: 2em;
 }
 
-.first p{
+#first p{
   font-size: 1.3em;
   line-height: 1.5em;
   font-weight: 100;
 }
 
-.first h2, .first p {
+#first h2, #first p {
   padding-left: 5%;
   padding-right: 5%;
 }
 
-.second h2 {
+#second h2 {
   padding-left: 5%;
   padding-top: 3%;
   font-size: 2em;
 }
-.second .column1of3 p {
+#second .column1of3 p {
   width: 43%;
   float: left;
   padding-left: 5%;
@@ -57,20 +75,29 @@ p {
   font-weight: 100;
 }
 
-.second span {
+#second span {
   font-size: 1.3em;
   font-weight: bold;
   color: #E6622B;
 }
 
-.second .column2of3 img {
+#second .column2of3 img {
   width: 20%;
   float: left;
 }
 
-.second .column3of3 img {
+#second .column3of3 img {
   width: 20%;
   float: left;
   padding-right: 5%;
   padding-left: 2%;
+}
+
+
+
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
 }
