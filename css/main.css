@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  height: 700px;
+  height: 600px;
   background-image: url("/Users/donna/bloc/simplyhomemade/images/Header_Image.png");
   background-repeat: no-repeat;
   color: white;
@@ -15,6 +15,7 @@ nav{
 
 nav ul {
   float: right;
+  list-style-type: none;
 }
 
 nav li {
@@ -24,74 +25,100 @@ nav li {
 nav a {
   display: inline-block;
   padding: 8px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
-h1 {
-  padding-left: 5%;
-  padding-top: 10%;
-  font-size: 6em;
-}
-
-p {
-  font-size: 1.3em;
-  padding-left: 5%;
-}
-
-.iphone img {
-  float: right;
-  padding-right: 5%;
-}
-
-
-
-#first h2 {
-  padding-top: 3%;
-  font-size: 2em;
-}
-
-#first p{
-  font-size: 1.3em;
-  line-height: 1.5em;
-  font-weight: 100;
-}
-
-#first h2, #first p {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-#second h2 {
-  padding-left: 5%;
-  padding-top: 3%;
-  font-size: 2em;
-}
-#second .column1of3 p {
-  width: 43%;
+.headings {
   float: left;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 60%;
+  margin: 5% 5% 0% 5%
+}
+
+.headings h1 {
+  font-size: 2.5em;
+}
+
+.headings p {
+  font-size: 1.5em;
+}
+
+.iphone {
+  float: left;
+  width: 30%;
+}
+
+
+
+
+
+#about h2 {
+  padding-top: 3%;
+  font-size: 2em;
+}
+
+#about p{
   font-size: 1.3em;
   line-height: 1.5em;
   font-weight: 100;
 }
 
-#second span {
+#about h2, #about p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.wrapper {
+  padding: 15%;
+}
+
+#features-one h2 {
+  font-size: 2em;
+}
+
+#features-one .column1of2 p {
+  width: 50%;
+  float: left;
+  padding-right: 15%;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+#features-one span {
   font-size: 1.3em;
   font-weight: bold;
   color: #E6622B;
 }
 
-#second .column2of3 img {
-  width: 20%;
+#features-one .column2of2 img {
+  width: 30%;
   float: left;
 }
 
-#second .column3of3 img {
-  width: 20%;
+#features-two .column1of2 img {
+  width: 30%;
   float: left;
-  padding-right: 5%;
-  padding-left: 2%;
+  padding-right: 15%;
 }
+
+#features-two .column2of2 p {
+  width: 50%;
+  float: left;
+  padding-left: 15%;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+#features-two span {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #E6622B;
+}
+
+
 
 
 
