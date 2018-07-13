@@ -6,6 +6,9 @@ header {
   height: 600px;
   background-image: url("/Users/donna/bloc/simplyhomemade/images/Header_Image.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   color: white;
 }
 
@@ -55,7 +58,7 @@ nav a {
 
 
 #about h2 {
-  padding-top: 3%;
+  padding-top: 10%;
   font-size: 2em;
 }
 
@@ -66,8 +69,8 @@ nav a {
 }
 
 #about h2, #about p {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .wrapper {
@@ -84,7 +87,7 @@ nav a {
   padding-right: 15%;
   font-size: 1.3em;
   line-height: 1.5em;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 #features-one span {
@@ -101,7 +104,6 @@ nav a {
 #features-two .column1of2 img {
   width: 30%;
   float: left;
-  padding-right: 15%;
 }
 
 #features-two .column2of2 p {
