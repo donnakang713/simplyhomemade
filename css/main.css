@@ -57,7 +57,7 @@ header a:hover {
 /* showcase */
 #showcase{
   min-height: 400px;
-  background:url("/Users/donna/bloc/simplyhomemade/images/background2.png");
+  background:url("images/background2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -214,11 +214,4 @@ footer .list {
     text-align: center;
     width: 100%;
   }
-
-  footer ul {
-    align-content: center;
-    }
-
-
-
 }
